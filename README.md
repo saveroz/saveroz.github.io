@@ -1,15 +1,15 @@
-About this project 
-This is my personal project to build start-up. 
-my kind of start-up is like online fashion but only 
-for young executive and rich people. My start-up name is 
-Gentlemen Wardrobe
----
-version
-this is version 1
-----
-----
-this project only 
----
-nb: this is only practice using github
------
-using development branch
+This is Repo for my Personal Website
+----------------------------------
+
+this websites was build to complete my assignment as student at hacktiv 8.
+because i dont have any experience to build a website, this website lack
+so many aspect. 
+
+--------------------------------
+NB: this website dont have responsive web design yet. So it's only have best
+display  at 1366x768 resolution.
+
+-------------------------------
+For future development I would add responsive web design and animation.
+
+
