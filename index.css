@@ -1,155 +1,152 @@
-body, html {
-    margin: 0;
-    padding: 0;
+*{
+    box-sizing: border-box;
 }
-
-nav {
-    background-color:white;
-    margin: 0;
+body{
+    margin:0px;
+    
+}
+head{
+    
+}
+nav{
+    background-color:rgb(95,95,95);
     width: 100%;
-    height: 125px;
+    height: 60px;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    z-index:5;
+    top:0px;
+     
+    
 }
-
-nav ul{
-    margin: 0 auto;
-    text-align: center; 
-    padding: 25px;
+ul li{
+    display:inline-block;
+    margin:0px 30px;
+    font-family: "Julius Sans One";
+    letter-spacing: 1px;
+    font-weight: 600;
+    color:whitesmoke;
 }
-
-nav li{
-    display: inline-block;
-    color:#555;   
-    padding: 20px;
-    font-size: 30px;
+.socmed:hover,li:hover{
+    color: lightyellow;
+    border-bottom: 2px solid #fff;
 }
+.all{
 
-nav li:hover{
-    border-bottom: 3px solid #bfa16b;
+    width: 100%;
+    height: 2000px;
+    background-image: url(img/particles.png);
 }
-
-#main-content{
-    height: 150vh;
-    margin-top: 20px;
-}
-
 footer{
-    bottom: 0;
-    margin: 0;
-    height: 10vh;
-    width: 100%;
+    background-color:rgb(95,95,95);
+    min-width:800px;
+    height: 80px;
+    padding: 5px;
     text-align: center;
-    background: #23232d;
-    color: white;
+
+       
 }
-
-footer h3 {
-    padding: 20px;
-    right: 0;
-    left: 0;
-    position: absolute;
-
+p{
+    margin:0px 10px;
+    font-family: "Lato";
+    
 }
-
-.caption-content {
-    background-image: url(img/bg-pattran.png);
-    width: 30%;
-    height: 100%;
-    float: right;
-    margin-right: 100px;
-    padding: 0 20px;
+footer p{
+    font-size:12px;
+    padding: 15px;
+    font-family: "Julius Sans One";
+    letter-spacing: 1px;
+    font-weight: 600;
+    color:whitesmoke;
+    margin:0px 30px;
+    
 }
-
-.text-frame {
-    /* clear: both;
+.socmed{
     position: relative;
-    padding: 0 20px; */
-    width: 100%;
-    float: left;
+    top:8px;
+    width: 20px;
+    height:20px;
+    margin:0px 20px 8px 20px;
+    border-radius: 20%; 
+}
+.grid{
+    position: relative;
+    top: 60px;
+    grid-template: 1fr 1fr/1fr 1fr; 
+    width: 95%;
+    height: auto;
+    
+    margin:10px auto;
+    display: grid;
+    grid-gap:20px;
+
+
+}
+.about-me-pic,.about-me, .Skill, .Hobby{
+    background-color: rgb(240, 240, 240);
+    width: 500px;
+    height:500px;
+    margin:30px auto;
+    border: 2px gray solid;
+    padding: 10px;
+    border-radius: 10%;
+    opacity: 0.7;
+}
+
+h2{
     text-align: center;
-    color: white;
-    margin-top: 70px;
+    font-family:"Julius Sans One";
 }
-
-.border-center{
-    overflow: hidden;
+.about-me-pic img{
     position: relative;
-    padding: 0 0 30px;
-    margin: 0 0 30px;
+    bottom: 20px;
+    margin:20px;
+    width: 400px;
+    height: auto;
+    border-radius: 12%;
 }
 
-.text-frame p {
+.Journey{
+    margin: 80px 60px auto;
     text-align: justify;
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+    position: relative;
+    opacity: 0.7;
 }
-
-.text-frame h2 {
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
+.Journey p{
+    margin:20px;
+    
 }
-
-.more-info {
-    border-radius: 10px;
-    width: max-content;
-    margin: 0 auto;
-    padding: 20px 30px;
-    border: 1px solid #bfa16b;
-    background: #23232d;
-    margin-top: 50px;
-}
-
-.more-info:hover{
-    background: #bfa16b;
-}
-
-#content-1{
-    background-image: url(img/img1.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 70vh;
-    background-repeat: no-repeat;
-}
-
-.content-product {
-    margin-top: 100px;
-    text-align: center;
+.journey-grid{
+    display: grid;
+    grid-template: repeat(2,1fr) / repeat(4,1fr);
+    grid-gap: 20px;
+    margin:20px auto;
     width: 80%;
-    margin: 20px auto;
-    text-align: center;
+    height: auto;
+    padding: 40px;
+    padding-right: 20px;
+    
+
+}
+.journey-grid img{
+width: 200px;
+height:200px;
+text-align: center;
+border-radius: 15%;
+border: 2px solid gray;
+opacity: 0.8;
+border-radius: 4px;
+padding: 5px;
+object-fit: cover;
 }
 
-.content-product h1 {
-    font-family: 'Pacifico', cursive;
-    font-size: 40px;
+.journey-grid img:hover{
+
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
-
-.column {
-    float: left;
-    width: 23%;
-    padding: 0 10px;
-  }
-  
-  
-  .row {
-      margin: 0;
-    }
-
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-  }
-
-  .card img {
-      width: 80%;
-      height: 50%;
-      margin: 0 10%;
-  }
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
