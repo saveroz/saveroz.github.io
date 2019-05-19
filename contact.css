@@ -88,4 +88,10 @@ a{
 }
 .data{
     margin:8px;
+    opacity: 0.75;
+}
+input, textarea{
+    font-family: "Lato";
+    border:2px solid gray;
+    border-radius: 5%;  
 }

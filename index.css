@@ -50,6 +50,7 @@ footer{
 p{
     margin:0px 10px;
     font-family: "Lato";
+    text-align: justify;
     
 }
 footer p{
@@ -60,6 +61,7 @@ footer p{
     font-weight: 600;
     color:whitesmoke;
     margin:0px 30px;
+    text-align: center;
     
 }
 .socmed{
